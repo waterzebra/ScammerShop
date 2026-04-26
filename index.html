@@ -2,7 +2,7 @@
 
 <html>
 <head>
-<title>Shop of Scams</title>
+<title id="TITLE">Shop of Scams</title>
 <style>
 body {
   background-color: #222;
@@ -45,7 +45,7 @@ button:hover {
 </head>
 <body>
 
-<h1>Click the number for money</h1>
+<h1 id="HONE">Click the number for money</h1>
 
 <button id="Boots" onclick="Boots()">Buy Boots $10</button>
 
@@ -85,6 +85,7 @@ document.getElementById("Money").innerText = money
 function Button() {
 money = money + (MPC)
 document.getElementById("Money").innerText = money
+document.getElementById("Hone").innerText = " "
 }
 
 function Boots() {
